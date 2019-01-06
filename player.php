@@ -74,8 +74,8 @@ for ($i = 1; $i < 10; $i++) :
 			'country' => $proxy['country'],
 		);
 		
-		exit(json_encode($array));
 		$i = 10;
+		exit(json_encode($array));
 	} else {
 		if ($i == 10) {
 			exit(json_encode(array('status' => 'errorRequests')));
